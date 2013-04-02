@@ -997,11 +997,6 @@ public:
 #ifdef QCOM_SONY_HARDWARE
     void getFocusAreaCenter(int *x, int *y) const;
 #endif
-#ifdef ECLAIR_LIBCAMERA
-    static const char ORIENTATION_LANDSCAPE[];
-    static const char ORIENTATION_PORTRAIT[];
-    static const char ORIENTATION[];
-#endif
 #endif
 
 private:
